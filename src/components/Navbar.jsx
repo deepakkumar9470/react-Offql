@@ -21,11 +21,11 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="flex z-40 items-center justify-between gap-20 bg-white rounded-sm py-6 px-10 mx-20 mt-14">
+    <div className="flex z-70 items-center justify-between gap-20 bg-white rounded-sm py-6 px-10 mx-20 mt-14">
       <div>
         <img className="sm:text-center" src={logo} alt="logo" />
       </div>
-      <nav className="hidden md:hidden lg:block flex items-center gap-4">
+      <nav className="hidden md:hidden lg:block z-40 flex items-center gap-4">
         <ul className="flex items-center gap-10">
           {links.map((item, index) => (
             <li
